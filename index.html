@@ -6,8 +6,26 @@
     <title> Q4 Practice 1</title>
 </head>
 <body>
-    <h1>bop bep</h1>
+    <h1>JavaScript Conditional statements</h1>
+    <h2>Check Age Classification</h2>
+    <br>
+    <button clas="btn btn-info" onclick="checkage()">Check Age</button>
     <p>beep boop</p>
     <!-- comment -->
+
+    <script>
+        function checkage() {
+            var age = 15;
+            if (age < 18) {
+                alert("You are underage.");
+            }
+            else if(age>=18){
+                alert("You are of Legal Age.");
+            }
+            else{
+                alert("Impossible to classify age.");
+            }
+        }
+    </script>
 </body>
 </html>
